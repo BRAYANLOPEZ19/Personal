@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- EmailJS v4 -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init({
+                publicKey: "WbHxOLk_Z9TPE66rN" // tu public key real
+            });
+        })();
+    </script>
+</head>
+
+
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#services">Mis Servicios</a></li>
+                <li><a href="#work">Trabajos Recientes</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="dark-mode-toggle" id="darkModeToggle">
+                <i class="fas fa-moon"></i> </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+    <div class="profile-picture">
+        <img src="img/Perfil.jpg" alt="Tu Foto de Perfil">
+    </div>
+    <h1>Sobre Mí</h1>
+    <p>¡Hola! Soy Brayan López, un apasionado por la tecnología y la creatividad con residencia en Malacatán, San Marcos. Aquí puedes encontrar un poco más sobre mí y mis redes sociales.</p>
+    <div class="social-links">
+        <a href="https://facebook.com/tu_usuario" target="_blank" class="social-button facebook">
+            <i class="fab fa-facebook-f"></i> Facebook
+        </a>
+        <a href="https://instagram.com/tu_usuario" target="_blank" class="social-button instagram">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
+        <a href="https://wa.me/tunumerodetelefono?text=Hola,%20me%20interesa%20tu%20portafolio." target="_blank" class="social-button whatsapp">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+        </div>
+</section>
+
+        <section id="services" class="section">
+            <h2>Mis Servicios</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <i class="fas fa-desktop"></i>
+                    <h3>Diseño Web</h3>
+                    <p>Creación de sitios web atractivos, funcionales y responsivos, adaptados a tus necesidades.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-ethernet"></i>
+                    <h3>Técnico Instalador FTTH</h3>
+                    <p>Experto en instalación y mantenimiento de redes de fibra óptica al hogar (FTTH).</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-video"></i>
+                    <h3>Instalador de Cámaras de Seguridad</h3>
+                    <p>Instalación y configuración profesional de sistemas de videovigilancia (CCTV) para hogar y negocio.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Redes</h3>
+                    <p>Configuración, optimización y resolución de problemas en redes cableadas e inalámbricas.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-headset"></i>
+                    <h3>Soporte Técnico</h3>
+                    <p>Asistencia profesional y solución de problemas informáticos de hardware y software.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Diseño Gráfico</h3>
+                    <p>Diseño de logotipos, branding, material publicitario y elementos visuales impactantes.</p>
+                </div>
+            </div>
+        </section>
+
+      <section id="work" class="section">
+    <h2>Trabajos Recientes</h2>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="img/landing.png" alt="Diseño Web para Pyme">
+            <div class="overlay">
+                <h3>Desarrollo De Aplicaciones Web</h3>
+                <p>Creación de un sitio moderno y responsivo para una pequeña empresa local.</p>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="imG/CAJA-NAP.jpg" alt="Instalación FTTH Residencial">
+            <div class="overlay">
+                <h3>Instalación FTTH Residencial</h3>
+                <p>Despliegue de red de fibra óptica para conexión a internet de alta velocidad en hogares.</p>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="imG/MONITOREO.jpg" alt="Sistema de Seguridad CCTV">
+            <div class="overlay">
+                <h3>Sistema de Seguridad CCTV</h3>
+                <p>Implementación de cámaras de vigilancia para monitoreo 24/7 en un comercio.</p>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="imG/CONFIGURACION-OLT.jpg" alt="Configuración de Red Local">
+            <div class="overlay">
+                <h3>Configuración de Red Local</h3>
+                <p>Optimización y seguridad de la infraestructura de red en una oficina.</p>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="imG/AFTER.jpg" alt="Configuracion DVR ">
+            <div class="overlay">
+                <h3>Configuración de DVR</h3>
+                <p>Ensamble de Disco Duro y Configuración de Perimetros vigilados.</p>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="img/MIKROTIK.jpg" alt="Soporte Técnico Remoto">
+            <div class="overlay">
+                <h3>Soporte Técnico Remoto</h3>
+                <p>Asistencia y solución de problemas informáticos a distancia para clientes.</p>
+            </div>
+        </div>
+
+        </div>
+</section>
+
+        <section id="contact" class="section">
+            <h2>Contacto</h2>
+            <p>¿Interesado en trabajar conmigo o tienes alguna pregunta? ¡Contáctame!</p>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Tu Nombre" required>
+                <input type="email" id="email" placeholder="Tu Email" required>
+                <textarea id="message" placeholder="Tu Mensaje" rows="5" required></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+            <div id="form-messages"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 [Brayan López]. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+
+</body>
+</html>
